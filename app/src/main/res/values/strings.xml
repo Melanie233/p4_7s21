@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">p4_7s21</string>
+    <string name="p1titulo">Manejo de actividades(layaul)</string>
+    <string name="p1actbasc">Actividad Basica</string>
+    <string name="p1actparce">Actividad  Perceable</string>
+    <string name="p1actresp">Actividad BResultado</string>
+    <string name="p1ingnombre">Ingresa tu nombre</string>
+    <string name="p1ingedad">Ingresa aqui tu edad</string>
+    <string name="p1ingcorreo">Ingresa tu correo</string>
+    <string name="p2titulo">Actividad basica</string>
+    <string name="p2mensaje">Nombre recibido</string>
+    <string name="p2btnregresa">regresa a la actividad basica</string>
+    <string name="p3titulo">Elementos parcelables datos</string>
+    <string name="p3informacion">Datos obtenidos</string>
+    <string name="p3btnregresa">regresa al home</string>
+    <string name="p4titulo">Regresa estado de cierre de la actividad</string>
+    <string name="p4btnok">Cerrar con exito</string>
+    <string name="p4btncancelar">Cerrado con error</string>
+
+
+</resources>

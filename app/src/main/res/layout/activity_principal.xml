@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="132dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/p1ingnombre"
+        android:text="@string/p1titulo"
+        android:textColor="@color/panfilo"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p1btnape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:onClick="presionaBoton"
+        android:text="@string/p1actparce"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <Button
+        android:id="@+id/p1btnres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:onClick="presionaBoton"
+        android:text="@string/p1actresp"
+        app:layout_constraintEnd_toEndOf="@+id/p1btnape"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/p1btnape"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <Button
+        android:id="@+id/p1btnab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:gravity="center|center_horizontal"
+        android:onClick="presionaBoton"
+        android:text="@string/p1actbasc"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/p1txtnombre"
+        android:layout_height="60dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="32dp"
+        android:autofillHints="nombre"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/p1ingnombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1btnres" />
+
+    <EditText
+        android:id="@+id/p1txtedad"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:autofillHints="edad"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/p1ingedad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1txtnombre" />
+
+    <EditText
+        android:id="@+id/p1txtcorreo"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="correo"
+        android:ems="10"
+        android:hint="@string/p1ingcorreo"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1txtedad" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
